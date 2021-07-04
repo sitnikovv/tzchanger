@@ -1,6 +1,8 @@
+[![Go Reference](https://pkg.go.dev/badge/github.com/sitnikovv/tzchanger.svg)](https://pkg.go.dev/github.com/sitnikovv/tzchanger)
+
 # golang TimeZone Changer
 
-Changing timezone without changing the time
+Change timezone without change time
 
 # Usage
 
