@@ -1,4 +1,6 @@
 [![Go Reference](https://pkg.go.dev/badge/github.com/sitnikovv/tzchanger.svg)](https://pkg.go.dev/github.com/sitnikovv/tzchanger)
+[![Build Status](https://travis-ci.com/sitnikovv/tzchanger.svg?branch=master)](https://travis-ci.com/sitnikovv/tzchanger)
+[![Coverage Status](https://coveralls.io/repos/github/sitnikovv/tzchanger/badge.svg?branch=master)](https://coveralls.io/github/sitnikovv/tzchanger?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/sitnikovv/tzchanger)](https://goreportcard.com/report/github.com/sitnikovv/tzchanger)
 
 # golang TimeZone Changer

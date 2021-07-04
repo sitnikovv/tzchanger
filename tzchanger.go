@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-// ChangeTZ changing timezone without changing the time
+// ChangeTZ change timezone without change time
 func ChangeTZ(t time.Time, newTimeZone string) (time.Time, error) {
 	var (
 		zone *time.Location
