@@ -9,12 +9,12 @@ import (
 func ChangeTZ(t time.Time, newTimeZone string) (time.Time, error) {
 	var (
 		zone *time.Location
-		err error
+		err  error
 	)
 	if zone, err = time.LoadLocation(newTimeZone); err != nil {
 		return t, errors.New("invalid timezone")
 	}
 	_, currentOffset := t.Zone()
 	_, newOffset := t.In(zone).Zone()
-	return t.In(zone).Add(time.Second * time.Duration(currentOffset - newOffset)), nil
+	return t.In(zone).Add(time.Second * time.Duration(currentOffset-newOffset)), nil
 }
